@@ -17,8 +17,7 @@ namespace Disinfection
             InitializeComponent();
         }
 
-        public abstract void WasMouseClick(int x, int y);
 
-        public abstract void OnTimerTick(object sender, EventArgs e);
+        public abstract void StateDispose();
     }
 }

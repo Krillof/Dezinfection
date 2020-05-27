@@ -14,16 +14,28 @@ namespace Disinfection
     {
         private static State CurrentState;
 
-        public static Timer GlobalTimer;
-
         public MainForm()
         {
             InitializeComponent();
+
+            
         }
 
         public static void ChangeCurrentState(States changeToState)
         {
-
+            CurrentState.StateDispose();
+            switch (changeToState)
+            {
+                case States.menu:
+                    CurrentState = new MenuState();
+                    break;
+                case States.game:
+                    CurrentState = new GameState();
+                    break;
+                case States.credits:
+                    CurrentState = new CreditsState();
+                    break;
+            }
         }
 
         public enum States

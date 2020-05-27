@@ -12,24 +12,24 @@ namespace Disinfection
 {
     public partial class CreditsState : State
     {
+        private Image CreditsImage;
+
+        private List<AdvButton> Buttons;
+
+
         public CreditsState()
         {
             InitializeComponent();
         }
 
-        public new void OnTimerTick(object sender, EventArgs e)
+        private void LoadImage()
         {
 
         }
 
-        public new void WasMouseClick(int x, int y)
+        public override void StateDispose()
         {
-
-        }
-
-        ~CreditsState()
-        {
-
+            
         }
     }
 }

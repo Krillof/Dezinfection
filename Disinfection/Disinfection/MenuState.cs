@@ -12,22 +12,20 @@ namespace Disinfection
 {
     public partial class MenuState : State
     {
+        private Image MenuImage;
+
+        private List<AdvButton> Buttons;
+
         public MenuState()
         {
             InitializeComponent();
         }
-
-        public new void OnTimerTick(object sender, EventArgs e)
+        private void LoadImage()
         {
 
         }
 
-        public new void WasMouseClick(int x, int y)
-        {
-
-        }
-
-        ~MenuState()
+        public override void StateDispose()
         {
 
         }

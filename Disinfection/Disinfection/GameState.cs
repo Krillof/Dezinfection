@@ -12,36 +12,43 @@ namespace Disinfection
 {
     public partial class GameState : State
     {
-        private List<PictureBox> Monsters;
+        private List<Monster> Monsters;
 
-        private List<Image> MonsterImages;
+        private int Syringes;
+
+        private int MonstersAmount;
+
+        private int Score;
 
         private int LeftOffset;//сколько отнять от координат экрана
 
+        private Timer GameTimer;
+
+        private Image GameImage;
+
+        private List<Image> MonstersImages;
+
+        private List<AdvButton> Buttons;
 
         public GameState()
         {
             InitializeComponent();
         }
 
-        public new void OnTimerTick(object sender, EventArgs e)
+        private void LoadImage()
         {
 
         }
 
-        private void LoadMonsterImages()
+        public void OnTimerTick(object sender, EventArgs e)
         {
 
         }
 
-        public new void WasMouseClick(int x, int y)
+        public override void StateDispose()
         {
 
         }
 
-        ~GameState()
-        {
-
-        }
     }
 }
