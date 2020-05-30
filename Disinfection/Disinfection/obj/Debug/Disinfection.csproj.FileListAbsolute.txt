@@ -7,3 +7,13 @@ D:\GitHubProjects\Dezinfection\Disinfection\Disinfection\obj\Debug\Disinfection.
 D:\GitHubProjects\Dezinfection\Disinfection\Disinfection\obj\Debug\Disinfection.csproj.CoreCompileInputs.cache
 D:\GitHubProjects\Dezinfection\Disinfection\Disinfection\obj\Debug\Disinfection.exe
 D:\GitHubProjects\Dezinfection\Disinfection\Disinfection\obj\Debug\Disinfection.pdb
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Debug\Disinfection.exe.config
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Debug\Disinfection.exe
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Debug\Disinfection.pdb
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.csprojAssemblyReference.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.MainForm.resources
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.Properties.Resources.resources
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.csproj.GenerateResource.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.exe
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Debug\Disinfection.pdb

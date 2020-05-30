@@ -14,5 +14,7 @@ namespace Disinfection
 
         public Image ButtonImage;
 
+
+
     }
 }

@@ -12,18 +12,27 @@ namespace Disinfection
 {
     public partial class MainForm : Form
     {
-        private static State CurrentState;
+        private static State CurrentState = null;
+
+        public static MainForm MainFormObject;
 
         public MainForm()
         {
             InitializeComponent();
+            MainFormObject = this;
 
-            
+            this.Size = new Size(645, 365);
+            this.MinimumSize = new Size(645, 365);
+            this.MaximumSize = new Size(645, 365);
+
+            ChangeCurrentState(States.menu);
+            this.Controls.Add(CurrentState);
+            CurrentState.Location = new Point(0, 0);
         }
 
         public static void ChangeCurrentState(States changeToState)
         {
-            CurrentState.StateDispose();
+            CurrentState?.StateDispose();
             switch (changeToState)
             {
                 case States.menu:
