@@ -16,7 +16,7 @@ namespace Disinfection
 
         public static MainForm MainFormObject;
 
-        public MainForm()
+        public MainForm()//Показываю как коммитить
         {
             InitializeComponent();
             MainFormObject = this;
