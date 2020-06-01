@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Security.Policy;
+using Disinfection.Properties;
 
 namespace Disinfection
 {
@@ -86,6 +87,52 @@ namespace Disinfection
                 Waiting = 0;
             }
 
+            if (Waiting % 50 == 0)
+            foreach (var monster in ListMonst)
+            {
+                MonstInfo monstInfo = (MonstInfo)monster.Tag; 
+
+                switch (monstInfo.Type)
+                {
+                    case 1:
+                        if (monstInfo.PictureState)
+                        {
+                            monster.Image = Resources.вирус1_1;
+                        }
+                        else
+                        {
+                            monster.Image = Resources.вирус_1_2;
+                        }
+
+                        monstInfo.PictureState = !monstInfo.PictureState;
+                        break;
+                    case 2:
+                        if (monstInfo.PictureState)
+                        {
+                            monster.Image = Resources.вирус_2_1;
+                        }
+                        else
+                        {
+                            monster.Image = Resources.вирус_2_2;
+                        }
+
+                        monstInfo.PictureState = !monstInfo.PictureState;
+                        break;
+                    case 3:
+                        if (monstInfo.PictureState)
+                        {
+                            monster.Image = Resources.вирус_3_1;
+                        }
+                        else
+                        {
+                            monster.Image = Resources.вирус_3_1;
+                        }
+
+                        monstInfo.PictureState = !monstInfo.PictureState;
+                        break;
+                }
+            }
+
             foreach (var monst in ListMonst)
             {
                 MoveMonst(monst);
@@ -111,18 +158,37 @@ namespace Disinfection
             }
             Y = Rnd.Next(0, BottomGameBorder - 44);
 
+            int type = Rnd.Next(1, 4);
+
+            
+
 
             PictureBox PictureBox123 = new PictureBox();
             PictureBox123.Location = new Point(X, Y);
-            PictureBox123.Size = new System.Drawing.Size(55, 44);
-            PictureBox123.BackColor = Color.Red;
+            switch (type)
+            {
+                case 1:
+                    PictureBox123.Image = Disinfection.Properties.Resources.вирус1_1;
+                    PictureBox123.Size = new System.Drawing.Size(42, 55);
+                    break;
+                case 2:
+                    PictureBox123.Image = Disinfection.Properties.Resources.вирус_2_1;
+                    PictureBox123.Size = new System.Drawing.Size(46, 47);
+                    break;
+                case 3:
+                    PictureBox123.Image = Disinfection.Properties.Resources.вирус_3_1;
+                    PictureBox123.Size = new System.Drawing.Size(40, 43);
+                    break;
+            }
             PictureBox123.MouseMove += BackgroundPictureBoxMouseMove;
             PictureBox123.MouseClick += ShootMonst;
             PictureBox123.Cursor = GameCursor;
+
             
 
             MonstInfo monstInfo = new MonstInfo();
             monstInfo.X = X;
+            monstInfo.Type = type;
 
             tmp = Rnd.Next(1, 3);
 
@@ -179,8 +245,8 @@ namespace Disinfection
 
 
 
-            int maxX = RightGameBorder  - 75;
-            int maxY = BottomGameBorder - 64;
+            int maxX = RightGameBorder  - monster.Size.Width;
+            int maxY = BottomGameBorder - monster.Size.Height;
 
 
             if ((monstInfo.X + monstInfo.deltX >= maxX) || (monstInfo.X + monstInfo.deltX <= 0))
@@ -240,7 +306,7 @@ namespace Disinfection
 
         private void LoadImage()
         {
-            BackgroundPictureBox.Image = Disinfection.Properties.Resources.BackgroundTemp;
+            BackgroundPictureBox.Image = Disinfection.Properties.Resources.fon_pp;
         }
 
 
@@ -262,6 +328,7 @@ namespace Disinfection
         public int deltX = 0;
         public int deltY = 0;
         public int Type = 0;
+        public bool PictureState = false;
         public int X = 0;
     }
 }

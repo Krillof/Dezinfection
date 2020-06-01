@@ -108,7 +108,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Aim.ico" />
-    <Content Include="Resources\BackgroundTemp.png" />
+    <None Include="Resources\вирус1_1.png" />
+    <None Include="Resources\вирус 3_1.png" />
+    <None Include="Resources\вирус 2_3.png" />
+    <None Include="Resources\вирус 2_2.png" />
+    <None Include="Resources\вирус 2_1.png" />
+    <None Include="Resources\вирус 1_3.png" />
+    <None Include="Resources\вирус 1_2.png" />
+    <None Include="Resources\fon_pp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

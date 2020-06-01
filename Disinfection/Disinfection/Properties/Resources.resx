@@ -121,7 +121,28 @@
   <data name="Aim" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aim.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BackgroundTemp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackgroundTemp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fon_pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fon_pp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вирус_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вирус 3_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -73,9 +73,79 @@ namespace Disinfection.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BackgroundTemp {
+        internal static System.Drawing.Bitmap fon_pp {
             get {
-                object obj = ResourceManager.GetObject("BackgroundTemp", resourceCulture);
+                object obj = ResourceManager.GetObject("fon_pp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_1_2 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_1_3 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_2_1 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_2_2 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_2_3 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус_3_1 {
+            get {
+                object obj = ResourceManager.GetObject("вирус_3_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вирус1_1 {
+            get {
+                object obj = ResourceManager.GetObject("вирус1_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

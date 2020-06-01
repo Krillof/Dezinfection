@@ -21,13 +21,15 @@ namespace Disinfection
             InitializeComponent();
             MainFormObject = this;
 
-            this.Size = new Size(645, 365);
-            this.MinimumSize = new Size(645, 365);
-            this.MaximumSize = new Size(645, 365);
+            this.Size = new Size(652, 390);
+            this.MinimumSize = new Size(652, 390);
+            this.MaximumSize = new Size(652, 390);
 
             ChangeCurrentState(States.game);
             this.Controls.Add(CurrentState);
             CurrentState.Location = new Point(0, 0);
+
+            BackColor = Color.Black;
         }
 
         public static void ChangeCurrentState(States changeToState)
