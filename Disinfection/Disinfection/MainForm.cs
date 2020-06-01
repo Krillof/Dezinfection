@@ -25,7 +25,7 @@ namespace Disinfection
             this.MinimumSize = new Size(645, 365);
             this.MaximumSize = new Size(645, 365);
 
-            ChangeCurrentState(States.menu);
+            ChangeCurrentState(States.game);
             this.Controls.Add(CurrentState);
             CurrentState.Location = new Point(0, 0);
         }
