@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Disinfection.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,25 +17,30 @@ namespace Disinfection
 
         public static MainForm MainFormObject;
 
-        public MainForm()//Показываю как коммитить 2
+        public MainForm()
         {
             InitializeComponent();
             MainFormObject = this;
 
-            this.Size = new Size(652, 390);
-            this.MinimumSize = new Size(652, 390);
-            this.MaximumSize = new Size(652, 390);
+            this.Size = new Size(1137, 654);
+            this.MinimumSize = new Size(1137, 654);
+            this.MaximumSize = new Size(1137, 654);
 
-            ChangeCurrentState(States.game);
+            ChangeCurrentState(States.menu);
             this.Controls.Add(CurrentState);
             CurrentState.Location = new Point(0, 0);
 
+            this.AllowTransparency = true;
+
             BackColor = Color.Black;
+
+            this.Icon = Resources.GameIco;
         }
 
         public static void ChangeCurrentState(States changeToState)
         {
             CurrentState?.StateDispose();
+            MainFormObject.Controls.Remove(CurrentState);
             switch (changeToState)
             {
                 case States.menu:
@@ -47,6 +53,7 @@ namespace Disinfection
                     CurrentState = new CreditsState();
                     break;
             }
+            MainFormObject.Controls.Add(CurrentState);
         }
 
         public enum States

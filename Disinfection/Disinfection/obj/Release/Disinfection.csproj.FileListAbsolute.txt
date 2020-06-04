@@ -1,0 +1,10 @@
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Release\Disinfection.exe.config
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Release\Disinfection.exe
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\bin\Release\Disinfection.pdb
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.csprojAssemblyReference.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.MainForm.resources
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.Properties.Resources.resources
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.csproj.GenerateResource.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.exe
+D:\GitHubProjects\Disinfection\Disinfection\Disinfection\obj\Release\Disinfection.pdb

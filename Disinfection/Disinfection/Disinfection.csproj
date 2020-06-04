@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,9 +45,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdvButton.cs" />
     <Compile Include="CreditsState.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -71,7 +72,6 @@
     <Compile Include="MenuState.Designer.cs">
       <DependentUpon>MenuState.cs</DependentUpon>
     </Compile>
-    <Compile Include="Monster.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State.cs">
@@ -107,7 +107,58 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Lose.png" />
+    <None Include="Resources\Won.png" />
+    <None Include="Resources\MainMenuMusic1.wav" />
+    <None Include="Resources\DRUM_ROL1.wav" />
+    <None Include="Resources\choice1.wav" />
+    <None Include="Resources\MainMenu.png" />
+    <None Include="Resources\MainMenu1.png" />
+    <None Include="Resources\MainMenu2.png" />
+    <None Include="Resources\GameIco.ico" />
+    <None Include="Resources\cursor.ico" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\DRUM_ROL.wav" />
+    <None Include="Resources\choice.wav" />
+    <None Include="Resources\WIN.wav" />
+    <None Include="Resources\virus1_3.png" />
+    <None Include="Resources\virus1_2.png" />
+    <None Include="Resources\virus1_1.png" />
+    <None Include="Resources\Titri2.png" />
+    <None Include="Resources\Titri1.png" />
+    <None Include="Resources\Titri.png" />
+    <None Include="Resources\Start2.png" />
+    <None Include="Resources\Start1.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\select.wav" />
+    <None Include="Resources\menu select.mp3" />
+    <None Include="Resources\menu choice.mp3" />
+    <None Include="Resources\medical.ico" />
+    <None Include="Resources\mask.ico" />
+    <None Include="Resources\fon.png" />
+    <None Include="Resources\exit2.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\1t.png" />
+    <None Include="Resources\2t.png" />
+    <None Include="Resources\3t.png" />
+    <None Include="Resources\4t.png" />
+    <None Include="Resources\5t.png" />
+    <None Include="Resources\6t.png" />
+    <None Include="Resources\7t.png" />
+    <None Include="Resources\8t.png" />
+    <None Include="Resources\9t.png" />
+    <None Include="Resources\10t.png" />
     <Content Include="Resources\Aim.ico" />
+    <None Include="Resources\MainMenuMusic.wav" />
+    <None Include="Resources\ammo5.png" />
+    <None Include="Resources\ammo4.png" />
+    <None Include="Resources\ammo3.png" />
+    <None Include="Resources\ammo2.png" />
+    <None Include="Resources\ammo1.png" />
+    <None Include="Resources\ammo0.png" />
+    <None Include="Resources\ammo8.png" />
+    <None Include="Resources\ammo7.png" />
+    <None Include="Resources\ammo6.png" />
     <None Include="Resources\вирус1_1.png" />
     <None Include="Resources\вирус 3_1.png" />
     <None Include="Resources\вирус 2_3.png" />
