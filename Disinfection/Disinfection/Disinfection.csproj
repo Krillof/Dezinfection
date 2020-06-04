@@ -74,6 +74,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="State.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -85,14 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,18 +109,12 @@
   <ItemGroup>
     <None Include="Resources\Lose.png" />
     <None Include="Resources\Won.png" />
-    <None Include="Resources\MainMenuMusic1.wav" />
-    <None Include="Resources\DRUM_ROL1.wav" />
-    <None Include="Resources\choice1.wav" />
     <None Include="Resources\MainMenu.png" />
     <None Include="Resources\MainMenu1.png" />
     <None Include="Resources\MainMenu2.png" />
     <None Include="Resources\GameIco.ico" />
     <None Include="Resources\cursor.ico" />
     <None Include="Resources\exit.png" />
-    <None Include="Resources\DRUM_ROL.wav" />
-    <None Include="Resources\choice.wav" />
-    <None Include="Resources\WIN.wav" />
     <None Include="Resources\virus1_3.png" />
     <None Include="Resources\virus1_2.png" />
     <None Include="Resources\virus1_1.png" />
@@ -130,9 +124,6 @@
     <None Include="Resources\Start2.png" />
     <None Include="Resources\Start1.png" />
     <None Include="Resources\Start.png" />
-    <None Include="Resources\select.wav" />
-    <None Include="Resources\menu select.mp3" />
-    <None Include="Resources\menu choice.mp3" />
     <None Include="Resources\medical.ico" />
     <None Include="Resources\mask.ico" />
     <None Include="Resources\fon.png" />
@@ -149,7 +140,6 @@
     <None Include="Resources\9t.png" />
     <None Include="Resources\10t.png" />
     <Content Include="Resources\Aim.ico" />
-    <None Include="Resources\MainMenuMusic.wav" />
     <None Include="Resources\ammo5.png" />
     <None Include="Resources\ammo4.png" />
     <None Include="Resources\ammo3.png" />

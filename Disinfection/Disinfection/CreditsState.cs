@@ -21,7 +21,7 @@ namespace Disinfection
 
         int timerValue = 0;
         Thread t;
-        PictureBox pictureBox1, pictureBox2, pictureBox3;
+        PictureBox pictureBox1, pictureBox2, pictureBox3, pictureBox4;
         System.Windows.Forms.Timer timer1;
         object monitor = new object();
         int pb1Height = 0;
@@ -36,6 +36,8 @@ namespace Disinfection
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+
             // 
             // pictureBox1
             // 
@@ -50,9 +52,9 @@ namespace Disinfection
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(127, 88);
+            this.pictureBox2.Location = new System.Drawing.Point(85, 94);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(795, 238);
+            this.pictureBox2.Size = new System.Drawing.Size(795, 206);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -64,15 +66,25 @@ namespace Disinfection
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Location = new System.Drawing.Point(883, 500);
+            this.pictureBox3.Location = new System.Drawing.Point(883, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(200, 75);
+            this.pictureBox3.Size = new System.Drawing.Size(121, 45);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Location = new System.Drawing.Point(85, 306);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(795, 206);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
             // 
             // UserControl2
             // 
